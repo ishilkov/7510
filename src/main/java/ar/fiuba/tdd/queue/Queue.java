@@ -24,5 +24,4 @@ public interface Queue<T> {
      * @throws AssertionError Empty queue exception.
      */
     void remove();
-
 }

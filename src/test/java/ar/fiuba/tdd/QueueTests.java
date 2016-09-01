@@ -1,5 +1,6 @@
 package ar.fiuba.tdd;
 
+
 import ar.fiuba.tdd.queue.BasicQueue;
 import ar.fiuba.tdd.queue.Queue;
 
@@ -31,6 +32,7 @@ public class QueueTests {
 
     @Test
     public void topItem() {
+
 
         Queue<String> queue = new BasicQueue<String>();
 
@@ -76,6 +78,7 @@ public class QueueTests {
     public void removeItemFromEmptyQueue() {
 
         Queue<String> queue = new BasicQueue<String>();
+
 
         queue.remove();
     }
